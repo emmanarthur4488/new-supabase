@@ -1,0 +1,24 @@
+:root {
+    --primary: #12bca2;
+    --secondary: #6d15df;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.nav{
+    background: var(--primary);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+}
+.nav li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding-right: 1rem;
+}
