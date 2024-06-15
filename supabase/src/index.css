@@ -10,6 +10,7 @@ body{
     color: #333333;
     font-family: sans-serif;
     background: #f2f2f2;
+    /* padding: 1rem; */
 }
 .link{
     text-decoration: none;
@@ -79,6 +80,15 @@ form button{
     border-radius: 50px;
     cursor: pointer;
 }
+.smoothie-card .fa-trash{
+    color: #071441;
+    margin-left: 10px;
+    padding: 6px;
+    font-size: 1em;
+    background: #eeeeee;
+    border-radius: 50px;
+    cursor: pointer;
+}
 .order-by button{
     margin-right: 10px;
     background: var(--primary);
@@ -93,4 +103,14 @@ form button{
 .order-by{
     padding-top: 1rem;
     padding-left: 1rem;
+}
+
+@media (max-width: 768px){
+    .smoothie-grid{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 1rem;
+    }
 }
